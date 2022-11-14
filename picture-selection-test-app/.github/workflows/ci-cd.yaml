@@ -22,7 +22,8 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: npm      
+          cache: npm
+      - run: cd picture-selection-test-app                
       - run: npm ci
       - run: npm test
       - run: npm run build
