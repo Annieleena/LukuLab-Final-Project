@@ -1,24 +1,27 @@
-import logo from './logo.svg';
+/*import logo from './logo.svg';*/
 import './App.css';
 
-function App() {
+function App () {
+  const playSound = () => {
+
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Picture selection test App
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div classname="app-container">
+      <div classname="image-display-container">
+        <img 
+        src="https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg"
+        alt="Boy playing piano" />
+        
+
+      </div>
+      <div classname="button-container">
+        <button click={playSound}>Play</button>
+
+
+
+      </div>
     </div>
+    
   );
 }
 
