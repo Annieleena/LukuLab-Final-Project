@@ -1,25 +1,35 @@
 /*import logo from './logo.svg';*/
 import './App.css';
 
-function App () {
-  const playSound = () => {
 
-  }
+function App () {
+  
   return (
     <div classname="app-container">
       <div classname="image-display-container">
         <img 
-        src="https://vinusimages.co/wp-content/uploads/2018/10/EG7A2390.jpgA_.jpg"
-        alt="Boy playing piano" />
+        src="./car.jpg"
+        alt="Car" />
+        <img 
+        src="./teddy.jpg"
+        alt="Teddy"  />
+        <img
+        src="./horns.jpg"
+        alt="Horns"  />
+        <img 
+        src="./spinner.jpg"
+        alt="Spinner" />
+        
         
 
       </div>
       <div classname="button-container">
-        <button click={playSound}>Play</button>
-
-
-
-      </div>
+        <button className="btn-play"><img src="./play-button.png" alt="Play icon" style={{width:"3rem"}} />
+          <i className="btnplaylist"></i>
+        </button> 
+        
+        </div>
+      
     </div>
     
   );

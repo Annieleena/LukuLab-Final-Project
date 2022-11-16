@@ -37,3 +37,15 @@
   }
 }
 */
+.image-display-container { 
+  position: absolute;
+  width: 409.24px;
+  height: 297.63px;
+  left: 0px;
+  top: 0px;
+  
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05)), ;
+  border-radius: 38.8207px;
+
+
+}
