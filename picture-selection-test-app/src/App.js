@@ -5,8 +5,8 @@ import Playaudio from './components/Playaudio';
 function App () {
   
   return (
-    <div classname="app-container">
-      <div classname="image-display-container">
+    <div className="app-container">
+      <div className="image-display-container">
         <img 
         src="./car.jpg"
         alt="Car" />
