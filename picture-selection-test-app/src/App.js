@@ -1,5 +1,5 @@
-/*import logo from './logo.svg';*/
 import './App.css';
+import Playaudio from './components/Playaudio';
 
 
 function App () {
@@ -23,10 +23,8 @@ function App () {
         
 
       </div>
-      <div classname="button-container">
-        <button className="btn-play"><img src="./play-button.png" alt="Play icon" style={{width:"3rem"}} />
-          <i className="btnplaylist"></i>
-        </button> 
+      <div>
+        <Playaudio />
         
         </div>
       
