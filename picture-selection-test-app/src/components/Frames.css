@@ -1,0 +1,36 @@
+.pageframe {
+    width: 1800px;
+    height: 980px;
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    background-color: #b32a2a(159, 60, 60);
+  }
+  
+  .picGroupFrame {
+    width: 856px;
+    height: 650.08px;
+    position: relative;
+    top: 74px;
+    left: 472px;
+    background-color: #444ca8(159, 60, 60);
+  }
+  
+  .audioControlFrame {
+    width: 347px;
+    height: 112px;
+    top: 795px;
+    left: 726px;
+    position: absolute;
+    background-color:  #965d5d(159, 60, 60);
+  }
+  
+  .bottomFrame {
+    width: 1920px;
+    height: 93px;
+    top: 987px;
+    left: 0px;
+    position: absolute;
+    background-color:  #965d5d(159, 60, 60);
+  }
+  
