@@ -1,0 +1,46 @@
+.picregionLT {
+    width: 409.24px;
+    height: 297.63px;
+    border-radius: 38.82px;
+    position: absolute;
+    background-color: #FFFFFF(159, 60, 60);
+}
+
+.picregionRT {
+    width: 409.24px;
+    height: 297.63px;
+    left: 446.44px;
+    border-radius: 38.82px;
+    position: absolute;
+    background-color: #FFFFFF(159, 60, 60);
+}
+
+.picregionLD {
+    width: 409.24px;
+    height: 297.63px;
+    top: 352.45px;
+    left: 0.33px;
+    border-radius: 38.82px;
+    position: absolute;
+    background-color: #FFFFFF(159, 60, 60);
+}
+
+.picregionRD {
+    width: 409.24px;
+    height: 297.63px;
+    top: 352.45px;
+    left: 446.76px;
+    border-radius: 38.82px;
+    position: absolute;
+    background-color: #FFFFFF(159, 60, 60);
+}
+
+.audioControlRegion {
+    width: 343px;
+    height: 112px;
+    left: 5px;
+    top: 0px;
+    border-radius: 500px;
+    position: absolute;
+    background-color: #F3F3F3(159, 60, 60);
+}
