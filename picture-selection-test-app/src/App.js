@@ -1,5 +1,5 @@
 import './App.css';
-import Playaudio from './components/Playaudio';
+
 
 
 function App () {
@@ -24,7 +24,7 @@ function App () {
 
       </div>
       <div>
-        <Playaudio />
+        
         
         </div>
         <div>
