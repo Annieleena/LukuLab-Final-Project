@@ -1,4 +1,4 @@
-import { useState } from 'react';
+/*import { useState } from 'react';
 import { sculptureList } from './data.js';
 
 export default function Gallery() {
@@ -28,4 +28,4 @@ export default function Gallery() {
       </h3>
       <button onClick={handleMoreClick}>
         {showMore ? 'Hide' : 'Show'} details
-      </button>
+      </button>*/
