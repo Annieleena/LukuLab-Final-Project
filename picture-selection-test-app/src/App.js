@@ -4,7 +4,7 @@ import { PicRegionLD, PicRegionLT, PicRegionRD, PicRegionRT, AudioControlRegion 
 import { ButtonDoneNext, AudioPlayer } from "./components/Controls"
 import audioSrc1 from './components/testAudio/audio1.ogg'
 import audioSrc2 from './components/testAudio/audio2.mp3'
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import image1 from './components/testpics/pic101.png'
 import image2 from './components/testpics/pic104.png'
 import image3 from './components/testpics/pic107.png'
