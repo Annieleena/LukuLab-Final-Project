@@ -55,7 +55,7 @@ function App() {
       },
         
         {
-        audio: audioSrcSet[1]
+        audio: audioSrcSet[j + 1]
       }]
     )
 
@@ -67,7 +67,6 @@ function App() {
 
     // lets load the audio src freshly
     audioPlayer.load()
-
   };
 
   return (
