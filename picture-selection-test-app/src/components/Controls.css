@@ -1,0 +1,23 @@
+.buttonDoneNext {
+    width: 157.87px;
+    height: 52px;
+    top: 41px;
+    left: 1742px;
+    border-radius: 100px;
+    gap: 8px;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bolder;
+    color: white;
+    font-size: xx-large;
+    background-color: rgb(158, 156, 159);
+}
+
+.buttonDoneNext:hover {
+    background-color: rgb(98, 97, 99);
+}
+
+.buttonDoneNext:checked {
+    background-color: rgb(20, 20, 20);
+}
