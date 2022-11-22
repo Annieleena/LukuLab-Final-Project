@@ -1,10 +1,10 @@
 import './App.css';
 import { PicGroupFrame, PageFrame, AudioControlFrame, BottomFrame } from "./components/Frames";
-import { PicRegionLD, PicRegionLT, PicRegionRD, PicRegionRT, AudioControlRegion} from "./components/Region";
+import { PicRegionLD, PicRegionLT, PicRegionRD, PicRegionRT, AudioControlRegion } from "./components/Region";
 import { ButtonDoneNext, AudioPlayer } from "./components/Controls"
 import audioSrc1 from './components/testAudio/audio1.ogg'
 import audioSrc2 from './components/testAudio/audio2.mp3'
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import image1 from './components/testpics/pic101.png'
 import image2 from './components/testpics/pic104.png'
 import image3 from './components/testpics/pic107.png'
@@ -19,21 +19,21 @@ let i = 0;
 function App() {
   let [testFilesGroup, setTestFilesGroup] = useState(
     [
-        {
-          pic: images[0]
-        },
-        {
-          pic: images[1]
-        },
-        {
-          pic: images[2]
-        },
-        {
-          pic: images[3]
-        },
-    {
-      audio: audioSrcSet[0]
-    }]
+      {
+        pic: images[0]
+      },
+      {
+        pic: images[1]
+      },
+      {
+        pic: images[2]
+      },
+      {
+        pic: images[3]
+      },
+      {
+        audio: audioSrcSet[0]
+      }]
   )
 
   const onDoneNextClicked = () => {
@@ -53,8 +53,8 @@ function App() {
       {
         pic: images[i + 3]
       },
-        
-        {
+
+      {
         audio: audioSrcSet[j + 1]
       }]
     )
@@ -72,7 +72,7 @@ function App() {
   return (
     <PageFrame>
       <PicGroupFrame>
-      <PicRegionLT>
+        <PicRegionLT>
           <img src={testFilesGroup[0].pic} alt="" />
         </PicRegionLT>
         <PicRegionRT>
@@ -86,10 +86,10 @@ function App() {
         </PicRegionRD>
       </PicGroupFrame>
       <AudioControlFrame>
-      <AudioControlRegion>
-        <AudioPlayer
-          playSrc={testFilesGroup[0].audio}
-        />
+        <AudioControlRegion>
+          <AudioPlayer
+            playSrc={testFilesGroup[4].audio}
+          />
         </AudioControlRegion>
       </AudioControlFrame>
       <BottomFrame>
@@ -101,5 +101,18 @@ function App() {
     </PageFrame>
   )
 }
+// const Student_Progress = function (props) {
+//   const [studentProgressData, studentProgressData] = useState();
 
+//   const fetchData = async function () {
+//     const response = await fetch("https://legible-seal-72.hasura.app/v1/graphql");
+//     const data = await response.json();
+//     studentProgressData(data);
+//   };
+//   useEffect(() => {
+//     fetchData();
+//   }, []);
+//   const
+
+// }
 export default App;
