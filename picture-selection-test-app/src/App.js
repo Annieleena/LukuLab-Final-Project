@@ -39,7 +39,6 @@ function App() {
 
     // lets load the audio src freshly
     audioPlayer.load()
-
   };
 
   return (
