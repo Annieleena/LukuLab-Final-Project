@@ -55,7 +55,7 @@ function App() {
       },
         
         {
-        audio: audioSrcSet[1]
+        audio: audioSrcSet[j + 1]
       }]
     )
 
