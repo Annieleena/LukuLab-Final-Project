@@ -1,4 +1,4 @@
-import "./Regions.css";
+import "./Region.css";
 
 const PicRegionLT = ({ children }) => {
     return <div title="LT" className="picregionLT">{children}</div>;
