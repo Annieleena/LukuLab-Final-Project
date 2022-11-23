@@ -46,7 +46,7 @@ function App() {
     let j = 1;
     if (buttonText === "Done") {
       // To do:calculate current page results and update current score
-      variable = "Next"
+      //variable = "Next"
     }
     else if (buttonText === "Next") {
 
@@ -72,12 +72,12 @@ function App() {
       // Audio object help 
       // https://www.w3schools.com/jsref/dom_obj_audio.asp    
 
-      //to do: audio should be paused and new set of files should be changed
+      //to do: audio should not be repeated for next slide and new set of files should be changed
       const audioPlayer = document.getElementsByClassName("audioPlayer")[0];
 
       // lets load the audio src freshly
       audioPlayer.load()
-      variable = "Done"
+     // variable = "Done"
     }
   };
 
@@ -106,7 +106,7 @@ function App() {
       </AudioControlFrame>
       <BottomFrame>
         <ButtonDoneNext
-          value={variable}
+          //value={variable}
           onClick={onDoneNextClicked}
         />
       </BottomFrame>
