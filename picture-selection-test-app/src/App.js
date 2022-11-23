@@ -13,10 +13,12 @@ import image4 from './components/testpics/pic110.png'
 //load picture and audio files in to arrays at the start of the app
 const images = [image1, image2, image3, image4, image3, image1, image4, image2];
 const audioSrcSet = [audioSrc1, audioSrc2]
-
+// i is a variable used as index to the item,which has been assigned value 0,and picks 1st image from array
 let i = 0;
 
 function App() {
+  // let has been assigned two sets of variables in array and returned by useState;
+  // here  Usestate is used to hold images and Audio arrays.
   let [testFilesGroup, setTestFilesGroup] = useState(
     [
       {
@@ -35,10 +37,12 @@ function App() {
         audio: audioSrcSet[0]
       }]
   )
-
+// onDoneNextClicked is a handler function of 
   const onDoneNextClicked = (buttonText) => {
     console.log("onDoneNextClicked" + i.toString());
+    //i is assiged value 4, as this will be the first index image for second sequence 
     i = 4;
+    // j is a index audio variable which has been assigned value 0 and picks first value from array
     let j = 0;
     if (buttonText === "Done") {
       //calculate current page results and update current score
@@ -68,7 +72,7 @@ function App() {
       // Audio object help 
       // https://www.w3schools.com/jsref/dom_obj_audio.asp    
 
-      //audio should be paused and new set of files should be changed
+      //to do: audio should be paused and new set of files should be changed
       const audioPlayer = document.getElementsByClassName("audioPlayer")[0];
 
       // lets load the audio src freshly
