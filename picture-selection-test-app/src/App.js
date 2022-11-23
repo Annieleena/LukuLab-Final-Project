@@ -37,15 +37,15 @@ function App() {
         audio: audioSrcSet[0]
       }]
   )
-// onDoneNextClicked is a handler function of 
+// onDoneNextClicked is a event handler function of of onDoneNextClicked when the button is clicked.
   const onDoneNextClicked = (buttonText) => {
     console.log("onDoneNextClicked" + i.toString());
-    //i is assiged value 4, as this will be the first index image for second sequence 
+    //i is assiged value 4, as this will be the first index to image for second sequence 
     i = 4;
-    // j is a index audio variable which has been assigned value 0 and picks first value from array
-    let j = 0;
+    // j is a index audio variable which has been assigned value 1 and picks second value from array
+    let j = 1;
     if (buttonText === "Done") {
-      //calculate current page results and update current score
+      // To do:calculate current page results and update current score
       variable = "Next"
     }
     else if (buttonText === "Next") {
@@ -65,7 +65,7 @@ function App() {
         },
 
         {
-          audio: audioSrcSet[j + 1]
+          audio: audioSrcSet[j]
         }]
       )
 
