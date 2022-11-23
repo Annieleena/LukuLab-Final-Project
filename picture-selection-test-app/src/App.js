@@ -36,37 +36,45 @@ function App() {
       }]
   )
 
-  const onDoneNextClicked = () => {
+  const onDoneNextClicked = (buttonText) => {
     console.log("onDoneNextClicked" + i.toString());
     i = 4;
     let j = 0;
-    setTestFilesGroup(
-      [{
-        pic: images[i + 0]
-      },
-      {
-        pic: images[i + 1]
-      },
-      {
-        pic: images[i + 2]
-      },
-      {
-        pic: images[i + 3]
-      },
+    if (buttonText === "Done") {
+      //calculate current page results and update current score
+      variable = "Next"
+    }
+    else if (buttonText === "Next") {
 
-      {
-        audio: audioSrcSet[j + 1]
-      }]
-    )
+      setTestFilesGroup(
+        [{
+          pic: images[i + 0]
+        },
+        {
+          pic: images[i + 1]
+        },
+        {
+          pic: images[i + 2]
+        },
+        {
+          pic: images[i + 3]
+        },
 
-    // Audio object help 
-    // https://www.w3schools.com/jsref/dom_obj_audio.asp    
+        {
+          audio: audioSrcSet[j + 1]
+        }]
+      )
 
-    //audio should be paused and new set of files should be changed
-    const audioPlayer = document.getElementsByClassName("audioPlayer")[0];
+      // Audio object help 
+      // https://www.w3schools.com/jsref/dom_obj_audio.asp    
 
-    // lets load the audio src freshly
-    audioPlayer.load()
+      //audio should be paused and new set of files should be changed
+      const audioPlayer = document.getElementsByClassName("audioPlayer")[0];
+
+      // lets load the audio src freshly
+      audioPlayer.load()
+      variable = "Done"
+    }
   };
 
   return (
@@ -94,7 +102,7 @@ function App() {
       </AudioControlFrame>
       <BottomFrame>
         <ButtonDoneNext
-          value={"Done"}
+          value={variable}
           onClick={onDoneNextClicked}
         />
       </BottomFrame>
