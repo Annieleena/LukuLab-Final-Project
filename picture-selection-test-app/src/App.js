@@ -45,8 +45,6 @@ function App() {
     // j is a index audio variable which has been assigned value 1 and picks second value from array
     let j = 1;
     if (buttonText === "Done") {
-      // To do:calculate current page results and update current score
-      //variable = "Next"
     }
     else if (buttonText === "Next") {
 
@@ -77,7 +75,6 @@ function App() {
 
       // lets load the audio src freshly
       audioPlayer.load()
-     // variable = "Done"
     }
   };
 
