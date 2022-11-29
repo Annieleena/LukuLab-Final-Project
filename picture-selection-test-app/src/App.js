@@ -41,7 +41,10 @@ function App() {
       <div>
         <Sound />
       </div>
-
+      <div>
+        <button className="btn.done">Done</button>
+        <button className="btn.next">Next</button>
+      </div>
       
     </main >
 
