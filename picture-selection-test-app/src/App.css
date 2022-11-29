@@ -1,7 +1,55 @@
 .App {
-  text-align: center;
+  text-align: centre;
 }
 
+/*main
+{
+  border: 2px solid darkslategray;
+  background-color: white;
+  max-height: 150vh;
+  margin: auto;
+  flex-direction: column;
+  vertical-align: center;
+  justify-content: center;
+  font-size: calc(12px + 2vmin);
+  color: lightblue;
+  padding: 20px, 20px;
+  width: 600px;
+  justify-content: space-evenly;
+  font-family:  “Verdana”, monospace;
+}
+p{
+margin: 20px;
+}
+body {
+background-image: url(“back.png”);
+margin: 50px;
+}
+container {
+  justify-content: space-evenly;
+  display: flex; /* or inline-flex 
+}
+button {
+  background-color: lightblue; /* Green */
+  /*border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: bold;
+  display: inline-block;
+  font-size: 16px;
+  font-family:  “Verdana”, monospace;
+}
+#line {
+  width: 80%;
+  color: black, 12px;
+  }
+button:hover {
+  border: 2px solid darkblue;
+  cursor: pointer;
+  }*/
+ 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -10,9 +58,12 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(56, 165, 116);
 }
-
+.Border{
+  border-style: solid;
+  background-color: aliceblue;
+}
 .audioButton{
   display: flex;
   align-items: flex-end;
@@ -29,4 +80,14 @@
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
+}
+
+.picGroupFrame {
+  width: 856px;
+  height: 650.08px;
+  position: relative;
+  top: 74px;
+  left: 472px;
+  background-color: #7ec330(159, 60, 60);
+  object-fit:cover;
 }
