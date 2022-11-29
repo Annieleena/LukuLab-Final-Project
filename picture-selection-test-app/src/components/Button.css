@@ -87,7 +87,8 @@ img {
    
 }
   .btn-1:hover {
-    background-color: #bd0a7b}
+    background-color: #bd0a7b
+  }
   .btn-2:hover {
     background-color: #bd0a7b
   }
@@ -127,8 +128,9 @@ img {
     display: Absolut;
     text-decoration: none;
     cursor: pointer;
-    position: absolute-,
+    position: absolute,
   }
   button:hover {
     background-color: #12a9ea
   }
+  

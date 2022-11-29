@@ -12,3 +12,21 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
+.audioButton{
+  display: flex;
+  align-items: flex-end;
+  justify-content:flex-end;
+}
+
+.buttonDone{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.buttonNext{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
