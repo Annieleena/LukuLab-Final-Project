@@ -9,6 +9,7 @@ function App() {
 
   return (
     <main>
+      <div> </div>
       <Button className="btn-1" onClick={() => {
         setChoices([
           ...choices,
