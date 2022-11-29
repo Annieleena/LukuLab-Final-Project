@@ -11,7 +11,7 @@ img {
     text-align: center;
   
   }
-   
+
   .btn-1 {
     padding: 15px 25px;
     font-size: 24px;
@@ -86,6 +86,18 @@ img {
     position: absolute;
    
 }
+
+.picGroupFrame {
+  width: 856px;
+  height: 650.08px;
+  position: relative;
+  top: 74px;
+  left: 472px;
+  background-color: #7ec330(159, 60, 60);
+  object-fit:cover;
+}
+
+ 
   .btn-1:hover {
     background-color: #bd0a7b
   }
