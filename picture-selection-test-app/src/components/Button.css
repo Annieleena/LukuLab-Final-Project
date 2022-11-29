@@ -1,0 +1,134 @@
+img {
+    background: #c8a8a3;
+    padding: 5px;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    line-height: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 3em;
+    text-align: center;
+  
+  }
+   
+  .btn-1 {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    gap: 80px 40px;
+    outline: none;
+    color: #fff;
+    background-color: #4c0ff5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
+    width: 409.24px;
+    height: 297.63px;
+    border-radius: 38.82px;
+    position: absolute ;
+   
+  }
+  .btn-2 {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    gap: 80px 40px;
+    outline: none;
+    color: #fff;
+    background-color: #4c0ff5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
+    width: 409.24px;
+    height: 297.63px;
+    left: 446.44px;
+    border-radius: 38.82px;
+    position: absolute;
+    
+  }
+
+  .btn-3 {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    gap: 80px 40px;
+    outline: none;
+    color: #fff;
+    background-color: #4c0ff5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
+    width: 409.24px;
+    height: 297.63px;
+    top: 352.45px;
+    left: 0.33px;
+    border-radius: 38.82px;
+    position: absolute;
+    }
+
+.btn-4 {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    gap: 80px 40px;
+    outline: none;
+    color: #fff;
+    background-color: #4c0ff5;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
+    width: 409.24px;
+    height: 297.63px;
+    top: 352.45px;
+    left: 446.76px;
+    border-radius: 38.82px;
+    position: absolute;
+   
+}
+  .btn-1:hover {
+    background-color: #bd0a7b}
+  .btn-2:hover {
+    background-color: #bd0a7b
+  }
+  .btn-3:hover {
+    background-color: #bd0a7b
+  }
+  .btn-4:hover {
+    background-color: #bd0a7b
+  }
+  .btn-1:active {
+    background-color: #c110e5;
+    transform: translateY(4px);
+  }
+  .btn-2:active {
+    background-color: #c110e5;
+    transform: translateY(4px);
+  }
+  .btn-3:active {
+    background-color: #c110e5;
+    transform: translateY(4px);
+  }
+  .btn-4:active {
+    background-color: #c110e5;
+    transform: translateY(4px);
+  }
+
+  button {
+    background-color: #f4511e;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: Absolut;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute-,
+  }
+  button:hover {
+    background-color: #12a9ea
+  }
