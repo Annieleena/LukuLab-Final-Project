@@ -19,10 +19,10 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #545356;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
+    box-shadow: 0 9px #111011;
     width: 409.24px;
     height: 297.63px;
     border-radius: 38.82px;
@@ -36,10 +36,10 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #48474b;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
+    box-shadow: 0 9px #111111;
     width: 409.24px;
     height: 297.63px;
     left: 446.44px;
@@ -55,10 +55,10 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #58575c;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
+    box-shadow: 0 9px #1b1a1b;
     width: 409.24px;
     height: 297.63px;
     top: 352.45px;
@@ -74,10 +74,10 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #78777c;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
+    box-shadow: 0 9px #111111;
     width: 409.24px;
     height: 297.63px;
     top: 352.45px;
@@ -87,16 +87,16 @@ img {
    
 }
   .btn-1:hover {
-    background-color: #bd0a7b
+    background-color: #eee4eb
   }
   .btn-2:hover {
-    background-color: #bd0a7b
+    background-color: #cec5cb
   }
   .btn-3:hover {
-    background-color: #bd0a7b
+    background-color: #afa5ac
   }
   .btn-4:hover {
-    background-color: #bd0a7b
+    background-color: #b3a5ae
   }
  /*.btn-1:active {
     background-color: #c110e5;
