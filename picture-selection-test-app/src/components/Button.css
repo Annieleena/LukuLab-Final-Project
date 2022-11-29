@@ -87,7 +87,8 @@ img {
    
 }
   .btn-1:hover {
-    background-color: #bd0a7b}
+    background-color: #bd0a7b
+  }
   .btn-2:hover {
     background-color: #bd0a7b
   }
@@ -132,3 +133,4 @@ img {
   button:hover {
     background-color: #12a9ea
   }
+  
