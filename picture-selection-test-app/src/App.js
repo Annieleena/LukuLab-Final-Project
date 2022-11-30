@@ -2,9 +2,35 @@ import React from 'react'
 import { useState } from 'react';
 import Button from "./components/Button";
 import Sound from "./components/Sound";
+/*import Donennext from "./components/Donennext";
+import React, { Component } from "react";*/
 
 function App() {
   const [choices, setChoices] = useState([]);
+
+  /*type ButtonProps = {
+  children: ReactNode;
+  onClick: () => void;
+};
+
+const Button = ({ children, onClick }: ButtonProps) => (
+  <button onClick={onClick}>{children}</button>
+);
+const withClicked = (Component) => {
+  return (props) => <Component {...props} />;
+};
+
+const ButtonWithClicked = withClicked(Button);
+
+<div className="btn.clicked">
+      
+      
+      <ButtonWithClicked onClick={() => console.log("log click")}>
+        Clicked
+      </ButtonWithClicked>
+    </div>
+  );
+*/
 
 
   return (
