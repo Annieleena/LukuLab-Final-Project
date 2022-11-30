@@ -2,14 +2,13 @@ import React from 'react'
 import { useState } from 'react';
 import Button from "./components/Button";
 import Sound from "./components/Sound";
+import './App.css';
 
 function App() {
   const [choices, setChoices] = useState([]);
 
-
   return (
     <main>
-      <div> </div>
       <Button className="btn-1" onClick={() => {
         setChoices([
           ...choices,

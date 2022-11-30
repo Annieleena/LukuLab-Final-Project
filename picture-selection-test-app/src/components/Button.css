@@ -11,7 +11,7 @@ img {
     text-align: center;
   
   }
-
+   
   .btn-1 {
     padding: 15px 25px;
     font-size: 24px;
@@ -86,21 +86,8 @@ img {
     position: absolute;
    
 }
-
-.picGroupFrame {
-  width: 856px;
-  height: 650.08px;
-  position: relative;
-  top: 74px;
-  left: 472px;
-  background-color: #7ec330(159, 60, 60);
-  object-fit:cover;
-}
-
- 
   .btn-1:hover {
-    background-color: #bd0a7b
-  }
+    background-color: #bd0a7b}
   .btn-2:hover {
     background-color: #bd0a7b
   }
@@ -110,7 +97,7 @@ img {
   .btn-4:hover {
     background-color: #bd0a7b
   }
- /*.btn-1:active {
+  /*.btn-1:active {
     background-color: #c110e5;
     transform: translateY(4px);
   }
@@ -140,9 +127,8 @@ img {
     display: Absolut;
     text-decoration: none;
     cursor: pointer;
-    position: absolute,
+    position: absolute-,
   }
   button:hover {
     background-color: #12a9ea
   }
-  
