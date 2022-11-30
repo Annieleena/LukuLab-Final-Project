@@ -13,25 +13,25 @@ function App() {
       <Button className="btn-1" onClick={() => {
         setChoices([
           ...choices,
-          "Top Left"
+          <img src="no.1.jpg" alt='clicked' />
         ]);
       }} src="1.jpg"></Button>
       <Button  className="btn-2" onClick={() => {
         setChoices([
           ...choices,
-          "Top Right"
+          <img src="no.2.jpg" alt='clicked' />
         ]);
       }} src="2.jpg"></Button>
       <Button className="btn-3" onClick={() => {
         setChoices([
           ...choices,
-          "Bottom Left"
+          <img src="no.3.jpg" alt='clicked' />
         ]);
       }} src="3.jpg"></Button>
       <Button className="btn-4" onClick={() => {
         setChoices([
           ...choices,
-          "Bottom Right"
+          <img src="no.4.jpg" alt='clicked' />
         ]);
       }} src="4.jpg"></Button>
       <ul>
