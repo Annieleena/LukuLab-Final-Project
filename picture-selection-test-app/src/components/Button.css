@@ -11,7 +11,7 @@ img {
     text-align: center;
   
   }
-   
+ 
   .btn-1 {
     padding: 15px 25px;
     font-size: 24px;
@@ -27,7 +27,8 @@ img {
     height: 297.63px;
     border-radius: 38.82px;
     position: absolute ;
-   
+    top: 74px;
+    left: 472px;
   }
   .btn-2 {
     padding: 15px 25px;
@@ -45,7 +46,8 @@ img {
     left: 446.44px;
     border-radius: 38.82px;
     position: absolute;
-    
+    top: 74px;
+    left: 890px;
   }
 
   .btn-3 {
@@ -61,8 +63,8 @@ img {
     box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
-    top: 352.45px;
-    left: 0.33px;
+    top: 390px;
+    left: 472px;
     border-radius: 38.82px;
     position: absolute;
     }
@@ -80,8 +82,8 @@ img {
     box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
-    top: 352.45px;
-    left: 446.76px;
+    top: 390px;
+    left: 890px;
     border-radius: 38.82px;
     position: absolute;
    
@@ -127,7 +129,9 @@ img {
     display: Absolut;
     text-decoration: none;
     cursor: pointer;
-    position: absolute-,
+    position: absolute;
+    top: 390px;
+    left: 890px;
   }
   button:hover {
     background-color: #12a9ea
