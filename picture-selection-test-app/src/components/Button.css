@@ -1,158 +1,172 @@
 img {
-    background: #c8a8a3;
-    padding: 5px;
-    width: 200px;
-    height: 150px;
-    margin-top: 10px;
-    line-height: 150px;
-    color: white;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-  
-  }
- 
-  .btn-1 {
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    gap: 80px 40px;
-    outline: none;
-    color: #fff;
-    background-color: #3e0cc9;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
-    width: 409.24px;
-    height: 297.63px;
-    border-radius: 38.82px;
-    position: absolute ;
-    top: 74px;
-    left: 472px;
-  }
-  .aft.clic1 {
-    position: absolute ;
-    top: 74px;
-    left: 472px;
-  }
-  .btn-2 {
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    gap: 80px 40px;
-    outline: none;
-    color: #fff;
-    background-color: #3e0cc9;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
-    width: 409.24px;
-    height: 297.63px;
-    left: 446.44px;
-    border-radius: 38.82px;
-    position: absolute;
-    top: 74px;
-    left: 890px;
-  }
-  .aft.clic2 {
-    position: absolute;
-    top: 74px;
-    left: 890px;
-  }
+  background: #c8a8a3;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
 
-  .btn-3 {
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    gap: 80px 40px;
-    outline: none;
-    color: #fff;
-    background-color: #3e0cc9;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
-    width: 409.24px;
-    height: 297.63px;
-    top: 390px;
-    left: 472px;
-    border-radius: 38.82px;
-    position: absolute;
-    }
-    .aft.clic3{
-      left: 472px;
-    border-radius: 38.82px;
-    position: absolute;
-    }
+}
+
+.btn-1 {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  gap: 80px 40px;
+  outline: none;
+  color: #fff;
+  background-color: #3e0cc9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #e511e8;
+  width: 409.24px;
+  height: 297.63px;
+  border-radius: 38.82px;
+  position: absolute;
+  top: 74px;
+  left: 472px;
+}
+
+.aft-clic1 {
+  position: absolute;
+  top: 135px;
+  left: 575px;
+}
+
+.btn-2 {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  gap: 80px 40px;
+  outline: none;
+  color: #fff;
+  background-color: #3e0cc9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #e511e8;
+  width: 409.24px;
+  height: 297.63px;
+  left: 446.44px;
+  border-radius: 38.82px;
+  position: absolute;
+  top: 74px;
+  left: 890px;
+}
+
+.aft-clic2 {
+  position: absolute;
+  top: 135px;
+  left: 890px;
+}
+
+.btn-3 {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  gap: 80px 40px;
+  outline: none;
+  color: #fff;
+  background-color: #3e0cc9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #e511e8;
+  width: 409.24px;
+  height: 297.63px;
+  top: 390px;
+  left: 472px;
+  border-radius: 38.82px;
+  position: absolute;
+}
+
+.aft-clic3 {
+  top: 390px;
+  left: 575px;
+  position: absolute;
+}
 
 .btn-4 {
-    padding: 15px 25px;
-    font-size: 24px;
-    cursor: pointer;
-    gap: 80px 40px;
-    outline: none;
-    color: #fff;
-    background-color: #3e0cc9;
-    border: none;
-    border-radius: 15px;
-    box-shadow: 0 9px #e511e8;
-    width: 409.24px;
-    height: 297.63px;
-    border-radius: 38.82px;
-    top: 390px;
-    left: 890px;
-    position: absolute;
-   }
-   .aft.clic4 {
-    top: 390px;
-    left: 890px;
-    position: absolute;
-   }
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  gap: 80px 40px;
+  outline: none;
+  color: #fff;
+  background-color: #3e0cc9;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #e511e8;
+  width: 409.24px;
+  height: 297.63px;
+  border-radius: 38.82px;
+  top: 390px;
+  left: 890px;
+  position: absolute;
+}
 
-  .btn-1:hover {
-    background-color: #bd0a7b}
-  .btn-2:hover {
-    background-color: #bd0a7b
-  }
-  .btn-3:hover {
-    background-color: #bd0a7b
-  }
-  .btn-4:hover {
-    background-color: #bd0a7b
-  }
-  .btn-1:active {
-    background-color: #c110e5;
-    transform: translateY(4px);
-  }
-  .btn-2:active {
-    background-color: #c110e5;
-    transform: translateY(4px);
-  }
-  .btn-3:active {
-    background-color: #c110e5;
-    transform: translateY(4px);
-  }
-  .btn-4:active {
-    background-color: #c110e5;
-    transform: translateY(4px);
-  }
+.aft-clic4 {
+  top: 390px;
+  left: 890px;
+  position: absolute;
+}
 
-  button {
-    background-color: #f4511e;
-    border: none;
-    color: white;
-    padding: 16px 32px;
-    text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
-    opacity: 0.6;
-    transition: 0.3s;
-    display: Absolut;
-    text-decoration: none;
-    cursor: pointer;
-    position: relative;
-    top: 750px;
-    left: 700px;
-  }
-  button:hover {
-    background-color: #12a9ea
-  }
+.btn-1:hover {
+  background-color: #bd0a7b
+}
+
+.btn-2:hover {
+  background-color: #bd0a7b
+}
+
+.btn-3:hover {
+  background-color: #bd0a7b
+}
+
+.btn-4:hover {
+  background-color: #bd0a7b
+}
+
+.btn-1:active {
+  background-color: #c110e5;
+  transform: translateY(4px);
+}
+
+.btn-2:active {
+  background-color: #c110e5;
+  transform: translateY(4px);
+}
+
+.btn-3:active {
+  background-color: #c110e5;
+  transform: translateY(4px);
+}
+
+.btn-4:active {
+  background-color: #c110e5;
+  transform: translateY(4px);
+}
+
+button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: Absolut;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  top: 750px;
+  left: 700px;
+}
+
+button:hover {
+  background-color: #12a9ea
+}
