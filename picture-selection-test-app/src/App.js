@@ -7,7 +7,7 @@ import Donennext from "./components/Donennext";
 function App() {
   const [choices, setChoices] = useState([]);
   const [isDoneClicked, setIsDoneClicked] = useState(false);
- const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(0);
 
      
       let hasNext = index < choices.length + 1;
