@@ -11,7 +11,7 @@ img {
     text-align: center;
   
   }
-
+ 
   .btn-1 {
     padding: 15px 25px;
     font-size: 24px;
@@ -19,14 +19,16 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #545356;
+    background-color: #4c0ff5;
     border: none;
-    box-shadow: 0 9px #111011;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
     border-radius: 38.82px;
     position: absolute ;
-   
+    top: 74px;
+    left: 472px;
   }
   .btn-2 {
     padding: 15px 25px;
@@ -35,15 +37,17 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #48474b;
+    background-color: #4c0ff5;
     border: none;
-    box-shadow: 0 9px #111111;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
     left: 446.44px;
     border-radius: 38.82px;
     position: absolute;
-    
+    top: 74px;
+    left: 890px;
   }
 
   .btn-3 {
@@ -53,13 +57,14 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #58575c;
+    background-color: #4c0ff5;
     border: none;
-    box-shadow: 0 9px #1b1a1b;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
-    top: 352.45px;
-    left: 0.33px;
+    top: 390px;
+    left: 472px;
     border-radius: 38.82px;
     position: absolute;
     }
@@ -71,42 +76,30 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #78777c;
+    background-color: #4c0ff5;
     border: none;
-    box-shadow: 0 9px #111111;
+    border-radius: 15px;
+    box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
-    top: 352.45px;
-    left: 446.76px;
+    top: 390px;
+    left: 890px;
     border-radius: 38.82px;
     position: absolute;
    
 }
-
-.picGroupFrame {
-  width: 856px;
-  height: 650.08px;
-  position: relative;
-  top: 74px;
-  left: 472px;
-  background-color: #7ec330(159, 60, 60);
-  object-fit:cover;
-}
-
- 
   .btn-1:hover {
-    background-color: #eee4eb
-  }
+    background-color: #bd0a7b}
   .btn-2:hover {
-    background-color: #cec5cb
+    background-color: #bd0a7b
   }
   .btn-3:hover {
-    background-color: #afa5ac
+    background-color: #bd0a7b
   }
   .btn-4:hover {
-    background-color: #b3a5ae
+    background-color: #bd0a7b
   }
- /*.btn-1:active {
+  .btn-1:active {
     background-color: #c110e5;
     transform: translateY(4px);
   }
@@ -121,7 +114,7 @@ img {
   .btn-4:active {
     background-color: #c110e5;
     transform: translateY(4px);
-  }*/
+  }
 
   button {
     background-color: #f4511e;
@@ -136,9 +129,10 @@ img {
     display: Absolut;
     text-decoration: none;
     cursor: pointer;
-    position: absolute,
+    position: absolute;
+    top: 390px;
+    left: 890px;
   }
   button:hover {
     background-color: #12a9ea
   }
-  
