@@ -25,6 +25,7 @@ function App() {
 
   return (
     <main>
+      <h1>Exercise.1</h1>
       <Button className="btn-1" onClick={() => {
         setChoices([
           ...choices,
