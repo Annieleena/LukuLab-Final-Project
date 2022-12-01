@@ -130,8 +130,8 @@ img {
     text-decoration: none;
     cursor: pointer;
     position: absolute;
-    top: 390px;
-    left: 890px;
+    top: 750px;
+    left: 700px;
   }
   button:hover {
     background-color: #12a9ea
