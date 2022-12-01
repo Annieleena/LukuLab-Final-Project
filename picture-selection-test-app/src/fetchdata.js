@@ -2,10 +2,12 @@ const ENDPOINT_URL = "https://legible-seal-72.hasura.app/v1/graphql";
 const STUDENT_PROGRESS = `
     query {
         student_progress {
+            Student_Name
+            Student_Id
             Exercise_No
             Score_Progress
-            Student_Id
-            Student_Name
+            Date
+            Time
         }
     }
 `;
