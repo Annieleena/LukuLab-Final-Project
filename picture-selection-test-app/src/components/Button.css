@@ -19,13 +19,18 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #3e0cc9;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
     border-radius: 38.82px;
+    position: absolute ;
+    top: 74px;
+    left: 472px;
+  }
+  .aft.clic1 {
     position: absolute ;
     top: 74px;
     left: 472px;
@@ -37,7 +42,7 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #3e0cc9;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #e511e8;
@@ -45,6 +50,11 @@ img {
     height: 297.63px;
     left: 446.44px;
     border-radius: 38.82px;
+    position: absolute;
+    top: 74px;
+    left: 890px;
+  }
+  .aft.clic2 {
     position: absolute;
     top: 74px;
     left: 890px;
@@ -57,7 +67,7 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #3e0cc9;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #e511e8;
@@ -65,6 +75,11 @@ img {
     height: 297.63px;
     top: 390px;
     left: 472px;
+    border-radius: 38.82px;
+    position: absolute;
+    }
+    .aft.clic3{
+      left: 472px;
     border-radius: 38.82px;
     position: absolute;
     }
@@ -76,18 +91,23 @@ img {
     gap: 80px 40px;
     outline: none;
     color: #fff;
-    background-color: #4c0ff5;
+    background-color: #3e0cc9;
     border: none;
     border-radius: 15px;
     box-shadow: 0 9px #e511e8;
     width: 409.24px;
     height: 297.63px;
+    border-radius: 38.82px;
     top: 390px;
     left: 890px;
-    border-radius: 38.82px;
     position: absolute;
-   
-}
+   }
+   .aft.clic4 {
+    top: 390px;
+    left: 890px;
+    position: absolute;
+   }
+
   .btn-1:hover {
     background-color: #bd0a7b}
   .btn-2:hover {
