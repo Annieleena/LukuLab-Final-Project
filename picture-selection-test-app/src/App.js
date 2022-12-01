@@ -2,40 +2,29 @@ import React from 'react'
 import { useState } from 'react';
 import Button from "./components/Button";
 import Sound from "./components/Sound";
-/*import Donennext from "./components/Donennext";
-import React, { Component } from "react";*/
+import Donennext from "./components/Donennext";
 
 function App() {
   const [choices, setChoices] = useState([]);
+  const [isDoneClicked, setIsDoneClicked] = useState(false);
+ const [index, setIndex] = useState(0);
 
-  /*type ButtonProps = {
-  children: ReactNode;
-  onClick: () => void;
-};
+     
+      let hasNext = index < choices.length + 1;
 
-const Button = ({ children, onClick }: ButtonProps) => (
-  <button onClick={onClick}>{children}</button>
-);
-const withClicked = (Component) => {
-  return (props) => <Component {...props} />;
-};
-
-const ButtonWithClicked = withClicked(Button);
-
-<div className="btn.clicked">
-      
-      
-      <ButtonWithClicked onClick={() => console.log("log click")}>
-        Clicked
-      </ButtonWithClicked>
-    </div>
-  );
-*/
+      function handleDoneClick() {
+        setIsDoneClicked(true);
+        
+      }
+      function handleNextClick() {
+        if (hasNext) {
+          setIndex(index + 1);
+        }
+      }
 
 
   return (
     <main>
-      <div> </div>
       <Button className="btn-1" onClick={() => {
         setChoices([
           ...choices,
