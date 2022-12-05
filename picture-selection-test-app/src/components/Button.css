@@ -30,6 +30,7 @@ img {
   left: 472px;
 }
 
+
 .aft-clic1 {
   position: absolute;
   top: 135px;
@@ -172,4 +173,10 @@ button {
 
 button:hover {
   background-color: #12a9ea
+}
+.green{
+  background-color: darkgreen;
+}
+.red{
+  background-color: #f4511e;
 }
