@@ -9,7 +9,6 @@ img {
   font-weight: bold;
   font-size: 3em;
   text-align: center;
-
 }
 
 .btn-1 {
@@ -35,6 +34,7 @@ img {
   position: absolute;
   top: 135px;
   left: 575px;
+  z-index: 20;
 }
 
 .btn-2 {
@@ -60,7 +60,8 @@ img {
 .aft-clic2 {
   position: absolute;
   top: 135px;
-  left: 890px;
+  left: 999px;
+  z-index: 20;
 }
 
 .btn-3 {
@@ -83,9 +84,10 @@ img {
 }
 
 .aft-clic3 {
-  top: 390px;
+  top: 450px;
   left: 575px;
   position: absolute;
+  z-index: 20;
 }
 
 .btn-4 {
@@ -108,9 +110,10 @@ img {
 }
 
 .aft-clic4 {
-  top: 390px;
-  left: 890px;
+  top: 450px;
+  left: 997px;
   position: absolute;
+  z-index: 20;
 }
 
 .btn-1:hover {
