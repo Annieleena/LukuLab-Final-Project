@@ -118,13 +118,6 @@ img {
   z-index: 70;
 }
 
-.green{
-  background-color: darkgreen;
-}
-.red{
-  background-color: #f4511e;
-}
-
 .btn-1:hover {
   background-color: #bd0a7b
 }
@@ -181,4 +174,11 @@ button {
 
 button:hover {
   background-color: #12a9ea
+}
+
+.green{
+  background-color: darkgreen;
+}
+.red{
+  background-color: #f4511e;
 }
