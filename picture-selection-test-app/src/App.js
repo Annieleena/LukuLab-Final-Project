@@ -6,11 +6,11 @@ import Donennext from "./components/Donennext";
 import { exerciseGuide } from "./components/Exerciseguide";
 
 function App() {
+  const correctOrder=["Top Left","Top Right","Bottom Left","Bottom Right"];
   const [choices, setChoices] = useState([]);
   const [isDoneClicked, setIsDoneClicked] = useState(false);
   const [index, setIndex] = useState(0);
   const [showMore, setShowMore] = useState(false);
-  /*const [imageSeq, setImageSeq] = useState();*/
 
      
       let hasNext = index < choices.length + 1;
@@ -46,60 +46,50 @@ function App() {
 
   return (
     <main>
-      <Button className="btn-1" index={choices.indexOf("Top Left")} onClick={() => {
+      <Button className="btn-1" onClick={() => {
                 if (neverclickedbtn1)
                 {
         setChoices([
           ...choices,
-          "Top Left"
-          /*<img className= "aft-clic1" src="no.1.jpg" alt='clicked' />*/
-        ])}
-        
+          <img className= "aft-clic1" src="no.1.jpg" alt='clicked' />
+        ]);
         setNC1(false);
       }
-    
-      }src="1.jpg"></Button>
-      <Button  className="btn-2"  index={choices.indexOf("Top Right")} onClick={() => {
+      }} src="1.jpg"></Button>
+      <Button  className="btn-2" onClick={() => {
                 if (neverclickedbtn2)
                 {
         setChoices([
           ...choices,
-          "Top Right"
-          /*<img className= "aft-clic2"src="no.2.jpg" alt='clicked' />*/
-        ])}
-        
+          <img className= "aft-clic2"src="no.2.jpg" alt='clicked' />
+        ]);
         setNC2(false);
       }
-      }src="2.jpg"></Button>
-      <Button className="btn-3" index={choices.indexOf("Bottom Left")} onClick={() => {
+      }} src="2.jpg"></Button>
+      <Button className="btn-3" onClick={() => {
                 if (neverclickedbtn3)
                 {
         setChoices([
           ...choices,
-          "Bottom Left"
-          /*<img className= "aft-clic3"src="no.3.jpg" alt='clicked' />*/
-        ])}
-        
+          <img className= "aft-clic3"src="no.3.jpg" alt='clicked' />
+        ]);
         setNC3(false);
       }
-      } src="3.jpg"></Button>
-      <Button className="btn-4" index={choices.indexOf("Bottom Right")} onClick={() => {
+      }} src="3.jpg"></Button>
+      <Button className="btn-4" onClick={() => {
         if (neverclickedbtn4)
         {
         setChoices([
           ...choices,
-          "Bottom Right"
-          /*<img className= "aft-clic4"src="no.4.jpg" alt='clicked' />*/
-        ])}
-        
+          <img className= "aft-clic4"src="no.4.jpg" alt='clicked' />
+        ]);
         setNC4(false);
       }
-      }src="4.jpg"></Button>
+      }} src="4.jpg"></Button>
       <ul>
         {choices.map(choice => (
           <li>{choice}</li>
         ))}
-        
       </ul>
       <div>
       <button onClick={handleMoreClick}>
