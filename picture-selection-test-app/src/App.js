@@ -12,6 +12,7 @@ function App() {
   const [index, setIndex] = useState(0);
   const [showMore, setShowMore] = useState(false);
 
+     
       let hasNext = index < choices.length + 1;
 
       function handleDoneClick() {
@@ -33,9 +34,12 @@ function App() {
    const [neverclickedbtn2, setNC2] = useState(true);
    const [neverclickedbtn3, setNC3] = useState(true);
    const [neverclickedbtn4, setNC4] = useState(true);
+   
+   
 
   return (
     <main>
+      <h1>Exercise-1</h1>
       <Button className="btn-1" index={choices.indexOf("Top Left")} correctIndex={correctOrder.indexOf("Top Left")} onClick={() => {
                 if (neverclickedbtn1)
                 {
@@ -83,13 +87,12 @@ function App() {
         setNC4(false);
       }
       } src="4.jpg"></Button>
-         
-      <div>
-      <button onClick={handleMoreClick}>
-        {showMore ? 'Hide' : 'Show'} How to do Exercise?
-        {showMore && <p>{ guide.Steps }</p>}
-      </button>
-      </div>
+      <ul>
+        {choices.map(choice => (
+          <li>{choice}</li>
+        ))}
+      </ul>
+      
       <div>
         <Sound />
       </div>
@@ -97,8 +100,15 @@ function App() {
         <Donennext handleNextClick={handleNextClick} handleDoneClick={handleDoneClick}
         hasNext={hasNext} hasDone={isDoneClicked}/>
       </div>
+      <div>
+      <button onClick={handleMoreClick}>
+        {showMore ? 'Hide' : 'Show'} How to do Exercise?
+        {showMore && <p>{ guide.Steps }</p>}
+      </button>
+      </div>
       {index}
     </main >
   );
 }
 export default App;
+
