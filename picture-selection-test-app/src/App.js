@@ -35,57 +35,57 @@ function App() {
    const [neverclickedbtn3, setNC3] = useState(true);
    const [neverclickedbtn4, setNC4] = useState(true);
    
-   /*const [imageSeq1, setImageSe]
    
-   
-   function updateClickSeqNo() {
-    if (imageSeq < 4) {
-      setImageSeq(imageSeq + 1)
-    }
-   }*/
 
   return (
     <main>
-      <Button className="btn-1" onClick={() => {
+      <Button className="btn-1" index={choices.indexOf("Top Left")} correctIndex={correctOrder.indexOf("Top Left")} onClick={() => {
                 if (neverclickedbtn1)
                 {
         setChoices([
           ...choices,
-          <img className= "aft-clic1" src="no.1.jpg" alt='clicked' />
-        ]);
+          "Top Left"
+          /*<img className= "aft-clic1" src="no.1.jpg" alt='clicked' />*/
+        ])}
+
         setNC1(false);
       }
-      }} src="1.jpg"></Button>
-      <Button  className="btn-2" onClick={() => {
+
+      } src="1.jpg"></Button>
+      <Button  className="btn-2" index={choices.indexOf("Top Right")} correctIndex={correctOrder.indexOf("Top Right")} onClick={() => {
                 if (neverclickedbtn2)
                 {
         setChoices([
           ...choices,
-          <img className= "aft-clic2"src="no.2.jpg" alt='clicked' />
-        ]);
+          "Top Right"
+          // <img className= "aft-clic2"src="no.2.jpg" alt='clicked' />
+        ])}
+
         setNC2(false);
       }
-      }} src="2.jpg"></Button>
-      <Button className="btn-3" onClick={() => {
+      } src="2.jpg"></Button>
+      <Button className="btn-3" index={choices.indexOf("Bottom Left")} correctIndex={correctOrder.indexOf("Bottom Left")} onClick={() => {
                 if (neverclickedbtn3)
                 {
         setChoices([
           ...choices,
-          <img className= "aft-clic3"src="no.3.jpg" alt='clicked' />
-        ]);
+          "Bottom Left"
+          //<img className= "aft-clic3"src="no.3.jpg" alt='clicked' />
+        ])}
         setNC3(false);
       }
-      }} src="3.jpg"></Button>
-      <Button className="btn-4" onClick={() => {
+      } src="3.jpg"></Button>
+      <Button className="btn-4" index={choices.indexOf("Bottom Right")} correctIndex={correctOrder.indexOf("Bottom Right")} onClick={() => {
         if (neverclickedbtn4)
         {
         setChoices([
           ...choices,
-          <img className= "aft-clic4"src="no.4.jpg" alt='clicked' />
-        ]);
+          "Bottom Right"
+          //<img className= "aft-clic4"src="no.4.jpg" alt='clicked' />
+        ])}
         setNC4(false);
       }
-      }} src="4.jpg"></Button>
+      } src="4.jpg"></Button>
       <ul>
         {choices.map(choice => (
           <li>{choice}</li>
