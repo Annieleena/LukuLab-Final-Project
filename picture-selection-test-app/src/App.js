@@ -1,9 +1,10 @@
-import React from 'react'
-import { useState } from 'react';
+import React from 'react';
+import { useState, /*useEffect */} from 'react';
 import Button from "./components/Button";
 import Sound from "./components/Sound";
 import Donennext from "./components/Donennext";
 import { exerciseGuide } from "./components/Exerciseguide";
+/*import {fetchLukulab_Exercise} from "../fetch_data";*/
 
 function App() {
   const correctOrder=["Top Left","Top Right","Bottom Left","Bottom Right"];
@@ -11,6 +12,16 @@ function App() {
   const [isDoneClicked, setIsDoneClicked] = useState(false);
   const [index, setIndex] = useState(0);
   const [showMore, setShowMore] = useState(false);
+  /*const [pullDatas, setPullDatas] = useState();
+
+  const fetchData = async function () {
+    const data = await fetchLukulab_Exercise();
+    setPullDatas(data);
+  };
+
+  useEffect(() => {
+    fetchData();
+  }, []);*/
 
      
       let hasNext = index < choices.length + 1;
@@ -24,6 +35,40 @@ function App() {
           setIndex(index + 1);
         }
       }
+
+     /* const exerciseSet =
+    pullDatas &&
+    pullDatas.data.Lukulab_Exercise.filter((exercise) => {
+      if (exercise.Exercise_Set === "1") {
+        return true;
+      } else {
+        return false;
+      }
+    });
+
+  console.log(exerciseSet);
+  const exercise = pullDatas && exerciseSet[slideNumber];
+  return (
+  <>
+  <div className="container">
+        {pullDatas &&
+          exercise.Text.split(", ").map((image) => {
+            const handleClick = () => {
+              selectedWords.length > 0 && setDisabled(false);
+              setSelectedWords([...selectedWords, word]);
+            };
+            return (
+              <Button
+                key={word}
+                correctWords={exercise.Correctanswer.split(", ")}
+                word={word}
+                showResults={donePressed}
+                onClick={handleClick}
+              />
+            );
+          })}
+      </div>*/
+
 
       function handleMoreClick()  {
         setShowMore(!showMore);
