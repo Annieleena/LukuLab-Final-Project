@@ -59,6 +59,13 @@ img {
   left: 890px;
 }
 
+.aft-clic2 {
+  position: absolute;
+  top: 80px;
+  left: 155px;
+  z-index: 70;
+}
+
 .btn-3 {
   padding: 15px 25px;
   font-size: 24px;
@@ -78,6 +85,13 @@ img {
   position: absolute;
 }
 
+.aft-clic3 {
+  position: absolute;
+  top: 80px;
+  left: 155px;
+  z-index: 70;
+}
+
 .btn-4 {
   padding: 15px 25px;
   font-size: 24px;
@@ -95,6 +109,13 @@ img {
   top: 390px;
   left: 890px;
   position: absolute;
+}
+
+.aft-clic4 {
+  position: absolute;
+  top: 80px;
+  left: 155px;
+  z-index: 70;
 }
 
 .green{
