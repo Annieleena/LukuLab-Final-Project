@@ -30,12 +30,13 @@ img {
   left: 472px;
 }
 
-
 .aft-clic1 {
   position: absolute;
-  top: 135px;
-  left: 575px;
-  z-index: 20;
+  top: 80px;
+  left: 155px;
+  width: 95px;
+  height: 95px;
+  z-index: 70;
 }
 
 .btn-2 {
@@ -58,13 +59,6 @@ img {
   left: 890px;
 }
 
-.aft-clic2 {
-  position: absolute;
-  top: 135px;
-  left: 999px;
-  z-index: 20;
-}
-
 .btn-3 {
   padding: 15px 25px;
   font-size: 24px;
@@ -82,13 +76,6 @@ img {
   left: 472px;
   border-radius: 38.82px;
   position: absolute;
-}
-
-.aft-clic3 {
-  top: 450px;
-  left: 575px;
-  position: absolute;
-  z-index: 20;
 }
 
 .btn-4 {
@@ -110,11 +97,11 @@ img {
   position: absolute;
 }
 
-.aft-clic4 {
-  top: 450px;
-  left: 997px;
-  position: absolute;
-  z-index: 20;
+.green{
+  background-color: darkgreen;
+}
+.red{
+  background-color: #f4511e;
 }
 
 .btn-1:hover {
@@ -173,10 +160,4 @@ button {
 
 button:hover {
   background-color: #12a9ea
-}
-.green{
-  background-color: darkgreen;
-}
-.red{
-  background-color: #f4511e;
 }
