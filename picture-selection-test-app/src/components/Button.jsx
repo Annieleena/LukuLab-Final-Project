@@ -6,8 +6,11 @@ export default function Button(props) {
     props.onClick(event)
     console.log("Button is clicked");
   }
-  return <button className={props.className} onClick={handleClick}>
+  return <button className={props.className} onClick={handleClick}
+  >
      <img src={props.src} alt=""/>
+     
+     
   </button>;
 
 }
