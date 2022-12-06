@@ -132,11 +132,11 @@ function App() {
         setNC4(false);
       }
       } src="4.jpg"></Button>
-      <ul>
+      { /* <ul>
         {choices.map(choice => (
-          <li>{choice}</li>
+      <li>{choice}</li>
         ))}
-      </ul>
+       </ul> */}
       
       <div>
         <Sound />
