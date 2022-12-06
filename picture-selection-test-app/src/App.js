@@ -91,18 +91,19 @@ function App() {
           <li>{choice}</li>
         ))}
       </ul>
-      <div>
-      <button onClick={handleMoreClick}>
-        {showMore ? 'Hide' : 'Show'} How to do Exercise?
-        {showMore && <p>{ guide.Steps }</p>}
-      </button>
-      </div>
+      
       <div>
         <Sound />
       </div>
       <div>
         <Donennext handleNextClick={handleNextClick} handleDoneClick={handleDoneClick}
         hasNext={hasNext} hasDone={isDoneClicked}/>
+      </div>
+      <div>
+      <button onClick={handleMoreClick}>
+        {showMore ? 'Hide' : 'Show'} How to do Exercise?
+        {showMore && <p>{ guide.Steps }</p>}
+      </button>
       </div>
       {index}
     </main >
