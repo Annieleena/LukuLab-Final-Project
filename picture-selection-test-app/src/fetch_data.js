@@ -21,21 +21,22 @@ export const fetchStudentProgress = async () => {
 const ENDPOINT_URL = "https://fun-moose-91.hasura.app/v1/graphql";
 const Lukulab_Exercise_QUERY = `
     query {
-         Lukulab_exercise {
-            id
-            name
-            type
-            skill_tag
-            Complexity_level
-            picture
-            text
-            active elements
-            instructions
-            correct answer
-            average result
-            audio
-            exercise_set
-            exercise_no
+         Lukulab_Exercise {
+            ID
+		    Name
+		    Type
+		    Skill_tag
+            Complexity_Level
+            Picture
+            Text
+            Activeelements
+            Timer
+            Instructions
+            Correctanswer
+            AverageResult
+            Audio
+            Exercise_Set
+            Exercise_No
         }
     }
 `;
@@ -48,4 +49,4 @@ export const fetchLukulab_exercise = async () => {
     });
     return await response.json();
 };
-Footer
+
