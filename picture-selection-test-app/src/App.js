@@ -35,8 +35,6 @@ function App() {
    const [neverclickedbtn3, setNC3] = useState(true);
    const [neverclickedbtn4, setNC4] = useState(true);
    
-   
-
   return (
     <main>
       <h1>Exercise-1</h1>
