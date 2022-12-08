@@ -67,68 +67,33 @@ function App() {
   const pictures = pullDatas && exercise.Picture.split(",");
 
   return (
-    <main>
-      <h1>Exercise-1</h1>
-
-      <Button className="btn-1"
-        /*key={exercise.ID}*/
-        index={choices.indexOf("Top Left")}
-        correctIndex={correctOrder.indexOf("Top Left")}
-        onClick={() => {
-          if (neverclickedbtn1) {
-            setChoices([
-              ...choices,
-              "Top Left"
-              /*<img className= "aft-clic1" src="no.1.jpg" alt='clicked' />*/
-            ])
-          }
-
-          setNC1(false);
-        }
-
-        } src={pullDatas && pictures[0]}></Button>
-      <Button className="btn-2"
-        index={choices.indexOf("Top Right")}
-        correctIndex={correctOrder.indexOf("Top Right")}
-        onClick={() => {
-          if (neverclickedbtn2) {
-            setChoices([
-              ...choices,
-              "Top Right"
-              // <img className= "aft-clic2"src="no.2.jpg" alt='clicked' />
-            ])
-          }
-
-          setNC2(false);
-        }
-        } src={pullDatas && pictures[1]}></Button>
-      <Button className="btn-3" index={choices.indexOf("Bottom Left")} correctIndex={correctOrder.indexOf("Bottom Left")} onClick={() => {
-        if (neverclickedbtn3) {
-          setChoices([
-            ...choices,
-            "Bottom Left"
-            //<img className= "aft-clic3"src="no.3.jpg" alt='clicked' />
-          ])
-        }
-        setNC3(false);
-      }
-      } src={pullDatas && pictures[2]}></Button>
-      <Button className="btn-4" index={choices.indexOf("Bottom Right")} correctIndex={correctOrder.indexOf("Bottom Right")} onClick={() => {
-        if (neverclickedbtn4) {
-          setChoices([
-            ...choices,
-            "Bottom Right"
-            //<img className= "aft-clic4"src="no.4.jpg" alt='clicked' />
-          ])
-        }
-        setNC4(false);
-      }
-      } src={pullDatas && pictures[3]}></Button>
-      { /* <ul>
-        {choices.map(choice => (
-      <li>{choice}</li>
-        ))}
-       </ul> */}
+    <main> 
+   
+      <h1>Exercise.1</h1>
+      <Button className="btn-1" onClick={() => {
+        setChoices([
+          ...choices,
+          <img src="no.1.jpg" alt='clicked' />
+        ]);
+      }} src="1.jpg"></Button>
+      <Button  className="btn-2" onClick={() => {
+        setChoices([
+          ...choices,
+          <img src="no.2.jpg" alt='clicked' />
+        ]);
+      }} src="2.jpg"></Button>
+      <Button className="btn-3" onClick={() => {
+        setChoices([
+          ...choices,
+          <img src="no.3.jpg" alt='clicked' />
+        ]);
+      }} src="3.jpg"></Button>
+      <Button className="btn-4" onClick={() => {
+        setChoices([
+          ...choices,
+          <img src="no.4.jpg" alt='clicked' />
+        ]);
+      }} src="4.jpg"></Button>     
 
       <div>
         
