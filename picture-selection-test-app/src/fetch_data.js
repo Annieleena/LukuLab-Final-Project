@@ -21,7 +21,10 @@ export const fetchStudentProgress = async () => {
 const ENDPOINT_URL = "https://fun-moose-91.hasura.app/v1/graphql";
 const Lukulab_Exercise_QUERY = `
     query {
-         Lukulab_Exercise {
+         Lukulab_Exercise (
+            order_by: {Exercise_No: asc}
+            ) 
+         {
             ID
 		    Name
 		    Type
@@ -37,6 +40,7 @@ const Lukulab_Exercise_QUERY = `
             Audio
             Exercise_Set
             Exercise_No
+
         }
     }
 `;

@@ -34,6 +34,10 @@ function App() {
     if (hasNext) {
       setIndex(index + 1);
       setChoices([])
+      setNC1(true)
+      setNC2(true)
+      setNC3(true)
+      setNC4(true)
     }
   }
 
@@ -143,7 +147,7 @@ function App() {
           {showMore && <p>{guide.Steps}</p>}
         </button>
       </div>
-      {index +1}
+      {index + 1}
     </main >
   );
 }
