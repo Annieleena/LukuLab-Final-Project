@@ -6,7 +6,7 @@ export default function Donetonext(props) {
       <div>
        <button className='btn.done'
           onClick={props.handleDoneClick}
-          enabled={!props.hasDone}
+          disabled={props.hasDone}
         >
           Done
         </button>

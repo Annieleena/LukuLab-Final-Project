@@ -6,8 +6,11 @@ export default function Button(props) {
     props.onClick(event)
     console.log("Button is clicked");
   }
-  return <button className={props.className} onClick={handleClick}>
+  const color= props.index !== -1 && ( props.index === props.correctIndex ? "green" : "red");
+  return <button className={props.className+" "+color} onClick={handleClick}>
      <img src={props.src} alt=""/>
-  </button>;
+     {props.index !== -1 && <img className= "aft-clic1" src={`no.${props.index+1}.jpg`} alt="clicked" />}
+     
+     </button>;
 
 }
